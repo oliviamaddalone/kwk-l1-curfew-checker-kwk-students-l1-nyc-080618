@@ -1,14 +1,15 @@
-def simple_curfew_checker(time)
-  # code goes here
-end
 
-def curfew_checker(time)
-  # code goes here
-end
+def simple_curfew_checker
+  
+if time== 11
+  puts "Time to apparate"
 
-def complex_curfew_checker(time)
-  # code goes here
-end
+elsif time>11
+
+  puts "You're in trouble! Better get home quick"
+  
+else
+  time=11-time
 
 def deluxe_curfew_checker(time)
   # code goes here
