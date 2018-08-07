@@ -4,7 +4,7 @@ def simple_curfew_checker
 if time== 11
   puts "Time to apparate"
 
-elsif time>11
+if time>11
 
   puts "You're in trouble! Better get home quick!
   
