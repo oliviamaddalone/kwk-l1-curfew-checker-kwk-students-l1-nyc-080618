@@ -9,7 +9,7 @@ elsif time>11
   puts "You're in trouble! Better get home quick"
   
 else
-  time=11-time
+  time=11-time.to_i
 
 def deluxe_curfew_checker(time)
   # code goes here
